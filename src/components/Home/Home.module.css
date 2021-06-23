@@ -1,0 +1,14 @@
+.span {
+  content: " ";
+  display: inline-block;
+  width: 32px;
+}
+
+.intro {
+  width: 100%;
+  background-color: cadetblue !important;
+}
+
+p {
+  margin-left: 30px;
+}

@@ -1,0 +1,133 @@
+
+.cplayer {
+  display: block;
+  background-image: linear-gradient(to bottom, rgb(14, 6, 29), rgb(5, 34, 68));
+  margin: 0px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+  width: 400px;
+  height: 700px;
+}
+.cplayerh4 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+.cplayerp {
+  color: #aaa;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 120px;
+  font-weight: 600;
+}
+
+.cplayerspan {
+  font-weight: 500;
+  width: fit-content;
+  color:white;
+  font-size: 18px;
+} 
+
+.cplayerdetails .detailsimg {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.cplayerdetails .detailsimg img {
+  display: block;
+  margin: 50px auto;
+  object-fit: contain;
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+
+}
+
+.cplayerdetails .detailsimg:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  right: -25px;
+  bottom: -25px;
+  border-radius: 50%;
+  border: 3px dashed rgb(37, 148, 223);
+}
+
+.cplayerdetails .detailstitle {
+  color: #eee;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cplayerdetails .detailsartist {
+  color: #aaa;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cplayercontrols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.cplayercontrols .playbtn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cplayercontrols .playbtn:hover {
+  color: #ffce00;
+  background-color: inherit;
+  transition: 0.5s ease-in-out;
+}
+
+.cplayeraudio {
+  margin-top: -20px;
+  margin-bottom: 5px;
+  outline-width: 0;
+  opacity: 0.4;
+ margin-left: 50px;
+}
+
+.cplayercontrols .skipbtn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.cplayercontrols .skipbtn:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+  color: #ffce00;
+  background-color: inherit;
+}
+
+.cplayer > audio::-webkit-media-controls-play-button {
+  display: none;
+}
