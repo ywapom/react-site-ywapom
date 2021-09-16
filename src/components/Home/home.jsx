@@ -19,19 +19,19 @@ const Home = () => {
     image: "cat",
     color: "blue",
     fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/modern_melodic.mp3",
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/somber_mist.mp3",
     genre: { _id: "4", name: "Neo-Classical" },
   };
 
   const tune2 = {
     _id: "01",
-    title: " A version with cinematic orchestration:",
+    title: " A version with string orchestration:",
     // composer: "R.T.H.",
     date: "2021",
     image: "mountain",
     color: "green",
     fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/cinematic_oud.mp3",
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/somber_strings.mp3",
     genre: { _id: "4", name: "Neo-Classical" },
   };
 

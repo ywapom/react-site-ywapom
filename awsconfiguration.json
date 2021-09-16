@@ -1,0 +1,30 @@
+{
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "XX-XXXX-X:XXXXXXXX-XXXX-1234-abcd-1234567890ab",
+                "Region": "US East (N. Virginia) us-east-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "XX-XXXX-X_abcd1234",
+            "AppClientId": "XXXXXXXX",
+            "Region": "US East (N. Virginia) us-east-1"
+        }
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://ywapom.com.appsync-api.us-east-1.amazonaws.com/graphql",
+            "Region": "US East (N. Virginia) us-east-1",
+            "AuthMode": "AMAZON_COGNITO_USER_POOLS"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "ywapom.com",
+            "Region": "US East (N. Virginia) us-east-1"
+        }
+    }
+}
