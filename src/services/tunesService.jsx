@@ -7,7 +7,7 @@ const tunes = [
     image: "meteor",
     color: "blue",
     fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/pianoConcerto_v5.mp3",
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/pianoConcertoNoteperf_v5.mp3",
     genre: { _id: "4", name: "Neo-Classical" },
   },
   {
