@@ -13,7 +13,7 @@ function MP3Player() {
           img_src: "../images/piano.jpg",
           color: "blue",
           fontsize: "24px",
-          src: "https://s3.amazonaws.com/www.ywapom.com/mp3/pianoConcerto_v5.mp3",
+          src: "https://s3.amazonaws.com/www.ywapom.com/mp3/pianoConcertoNoteperf_v5.mp3",
           genre: { _id: "4", name: "Neo-Classical" },
         },
         {
