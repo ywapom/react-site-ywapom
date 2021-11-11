@@ -23,6 +23,10 @@ export default class NavBar extends Component {
         link: "/mp3player/",
         text: "Player",
       },
+      {
+        link: "/chess/",
+        text: "Chess",
+      },
       // {
       //   link: "/philosophy/",
       //   text: "Philosophy",

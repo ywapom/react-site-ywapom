@@ -63,6 +63,7 @@ import Home from "./components/Home/home";
 import NavBar from "./components/Navbar/navbar";
 import MP3Player from "./components/MP3Player/MP3Player";
 import { FaFortAwesomeAlt } from "react-icons/fa";
+import Chess from "./components/chess/chess";
 //import styles from "./App.css";
 
 library.add(
@@ -128,6 +129,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/musings" component={Musings} />
             <Route path="/MP3Player" component={MP3Player} />
+            <Route path="/chess" component={Chess} />
           </Switch>{" "}
         </Router>
       </main>
