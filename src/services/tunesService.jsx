@@ -435,6 +435,17 @@ const tunes = [
     url: "https://s3.amazonaws.com/www.ywapom.com/mp3/guitar_etude_1.mp3",
     genre: { _id: "4", name: "Neo-classical" },
   },
+  {
+    _id: "48",
+    title: "Gypsy Vendetta",
+    // composer: "R.T.H.",
+    date: "2022",
+    image: "cat",
+    color: "black",
+    fontsize: "48px",
+    src: "https://s3.amazonaws.com/www.ywapom.com/mp3/GypsyVendetta.mp3",
+    genre: { _id: "4", name: "Neo-classical" },
+  },
 ];
 
 export function getTunes() {

@@ -13,13 +13,13 @@ import HomeOutro from './home-outro';
 const Home = () => {
   const tune = {
     _id: "00",
-    title: " Latest work in progress:",
+    title: " Latest work in progress:  Gypsy Vendetta",
     // composer: "R.T.H.",
     date: "2021",
     image: "cat",
     color: "blue",
     fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/somber_mist.mp3",
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/GypsyVendetta.mp3",
     genre: { _id: "4", name: "Neo-Classical" },
   };
 
@@ -48,7 +48,7 @@ const Home = () => {
               <FontAwesomeIcon icon={tune.image} />
             </i>
             {/* <p className={styles.p}>by {tune.composer}</p> */}
-            <a className={styles.a} href={tune.link} target={"_blank"}>
+            <a className={styles.a} href={tune.link} target={"_blank"} rel="noreferrer">
               {" "}
               {tune.linkText}
             </a>
@@ -57,25 +57,7 @@ const Home = () => {
         </figure>
       </React.Fragment>
       <br></br>
-      <React.Fragment key={tune2._id}>
-        <figure>
-          <figcaption className={styles.figcaption}>
-            <p className={styles.p2}>{tune2.title}</p>
-            <i style={{ color: tune2.color }} aria-hidden="true">
-              {" "}
-              <FontAwesomeIcon icon={tune2.image} />
-            </i>
-            {/* <p className={styles.p}>by {tune.composer}</p> */}
-            <a className={styles.a} href={tune2.link} target={"_blank"}>
-              {" "}
-              {tune2.linkText}
-            </a>
-          </figcaption>
-          <audio controls src={tune2.url}></audio>
-        </figure>
-        </React.Fragment>
-        <br></br>
-        <HomeOutro></HomeOutro>
+      <HomeOutro></HomeOutro>
     </div>
   );
 };
