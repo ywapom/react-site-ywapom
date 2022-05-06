@@ -446,6 +446,17 @@ function MP3Player() {
           src: "https://s3.amazonaws.com/www.ywapom.com/mp3/GypsyVendetta.mp3",
           genre: { _id: "4", name: "Neo-classical" },
         },
+        {
+          _id: "49",
+          title: "Guitar Fantasy No.3",
+          // composer: "R.T.H.",
+          date: "2022",
+          img_src: "../images/fire-guitar.jpg",
+          color: "brown",
+          fontsize: "48px",
+          src: "https://s3.amazonaws.com/www.ywapom.com/mp3/Fantasy_3.mp3",
+          genre: { _id: "4", name: "Neo-classical" },
+        },
       ]);
     
       const [currentSongIndex, setCurrentSongIndex] = useState(0);

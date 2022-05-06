@@ -436,6 +436,17 @@ const tunes = [
     genre: { _id: "4", name: "Neo-classical" },
   },
   {
+    _id: "49",
+    title: "Guitar Fantasy #3",
+    // composer: "R.T.H.",
+    date: "2022",
+    image: "guitar",
+    color: "green",
+    fontsize: "48px",
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/Fantasy_3.mp3",
+    genre: { _id: "4", name: "Neo-classical" },
+  },
+  {
     _id: "48",
     title: "Gypsy Vendetta",
     // composer: "R.T.H.",
