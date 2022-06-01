@@ -454,7 +454,7 @@ const tunes = [
     image: "cat",
     color: "black",
     fontsize: "48px",
-    src: "https://s3.amazonaws.com/www.ywapom.com/mp3/GypsyVendetta.mp3",
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/GypsyVendetta.mp3",
     genre: { _id: "4", name: "Neo-classical" },
   },
 ];
