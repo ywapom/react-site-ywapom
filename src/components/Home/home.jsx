@@ -13,14 +13,14 @@ import HomeOutro from './home-outro';
 const Home = () => {
   const tune = {
     _id: "00",
-    title: " Latest work in progress:  Gypsy Vendetta",
+    title: " Latest work in progress:  Realms - intro.",
     // composer: "R.T.H.",
-    date: "2021",
-    image: "cat",
-    color: "blue",
+    date: "2022",
+    image: "moon-cloud",
+    color: "red",
     fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/GypsyVendetta.mp3",
-    genre: { _id: "4", name: "Neo-Classical" },
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/Realms_intro.mp3",
+    genre: { _id: "9", name: "Video Soundtrack" },
   };
 
   const tune2 = {

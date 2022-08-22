@@ -457,6 +457,17 @@ function MP3Player() {
           src: "https://s3.amazonaws.com/www.ywapom.com/mp3/Fantasy_3.mp3",
           genre: { _id: "4", name: "Neo-classical" },
         },
+        {
+          _id: "49",
+          title: "Realms - intro.",
+          // composer: "R.T.H.",
+          date: "2022",
+          img_src: "../images/prophecy.jpg",
+          color: "brown",
+          fontsize: "48px",
+          src: "https://s3.amazonaws.com/www.ywapom.com/mp3/Realms_intro.mp3",
+          genre: { _id: "9", name: "Video Soundtrack" },
+        },
       ]);
     
       const [currentSongIndex, setCurrentSongIndex] = useState(0);
