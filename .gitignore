@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/src/components/Musings/react-site-ywapom.code-workspace
 
 # testing
 /coverage
