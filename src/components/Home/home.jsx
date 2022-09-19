@@ -13,14 +13,14 @@ import HomeOutro from './home-outro';
 const Home = () => {
   const tune = {
     _id: "00",
-    title: " Latest work in progress:  Realms - intro.",
+    title: " Latest work in progress:  Epic Sax",
     // composer: "R.T.H.",
     date: "2022",
     image: "moon-cloud",
     color: "red",
     fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/Realms_intro.mp3",
-    genre: { _id: "9", name: "Video Soundtrack" },
+    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/Epic_Sax.mp3",
+    genre: { _id: "4", name: "Neo-classical" },
   };
 
   const tune2 = {

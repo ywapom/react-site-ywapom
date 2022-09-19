@@ -468,6 +468,17 @@ function MP3Player() {
           src: "https://s3.amazonaws.com/www.ywapom.com/mp3/Realms_intro.mp3",
           genre: { _id: "9", name: "Video Soundtrack" },
         },
+        {
+          _id: "50",
+          title: "Epic Sax",
+          // composer: "R.T.H.",
+          date: "2022",
+          img_src: "../images/shooting_star.jpg",
+          color: "brown",
+          fontsize: "48px",
+          src: "https://s3.amazonaws.com/www.ywapom.com/mp3/Epic_Sax.mp3",
+          genre: { _id: "4", name: "Neo-classical" },
+        },
       ]);
     
       const [currentSongIndex, setCurrentSongIndex] = useState(0);
