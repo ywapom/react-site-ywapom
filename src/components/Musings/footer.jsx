@@ -5,8 +5,8 @@ class MyFooter extends Component {
   render() {
     return (
       <footer className={styles.footer}>
-        <a className={styles.a} href="mailto:ywapom.musings@gmail.com">
-          Contact Us
+        <a className={styles.a} href="mailto:rth333@gmail.com">
+          Contact Me
         </a>
         <p className={styles.a}>
           All Rights to compositions, media, recordings or other creative

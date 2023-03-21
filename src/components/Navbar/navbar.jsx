@@ -13,7 +13,11 @@ export default class NavBar extends Component {
     const li = [
       {
         link: "/",
-        text: "Ywapom",
+        text: "Home",
+      },
+      {
+        link: "/resume/",
+        text: "Resume",
       },
       {
         link: "/musings/",
@@ -27,10 +31,6 @@ export default class NavBar extends Component {
         link: "/chess/",
         text: "Chess",
       },
-      // {
-      //   link: "/philosophy/",
-      //   text: "Philosophy",
-      // },
       // {
       //   link: "/covid/",
       //   text: "Covid-19",

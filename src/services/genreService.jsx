@@ -4,6 +4,7 @@ export const genres = [
     { _id: "3", name: "Modern" },
     { _id: "4", name: "Neo-Classical" },
     { _id: "5", name: "Jazz" },
+    { _id: "6", name: "Unspecified"},
     { _id: "7", name: "Smooth" },
     { _id: "8", name: "Dark" },
     { _id: "9", name: "Video Soundtrack"}

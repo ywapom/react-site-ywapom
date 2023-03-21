@@ -22,12 +22,17 @@ a:visited {
   color: blue !important;
 }
 
+.intro {
+  width: 100%;
+  background-color: cadetblue !important;
+}
+
 .footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
-h1{
+h1 h4{
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -51,7 +56,7 @@ h1{
 
 .track-info {
   text-align: center;
-	z-index: 1;
+  z-index: 1;
   position: relative;
 }
 

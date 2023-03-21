@@ -5,11 +5,10 @@ const HomeIntro = () => {
   return (
     <React.Fragment>
       <div className={styles.intro}>
-        <br />
-        <p>
-          “Music gives a soul to the universe, wings to the mind, flight to the
-          imagination, and life to everything.” – Plato
-        </p>
+        <text>Home</text>
+        <h3>
+        “Inspiration does exist, but it must find you working.” —Pablo Picasso
+        </h3>
         <br />
       </div>
     </React.Fragment>

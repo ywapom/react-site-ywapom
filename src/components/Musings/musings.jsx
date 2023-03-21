@@ -16,7 +16,7 @@ class Musings extends Component {
     pageSize: 4,
     currentPage: 1,
   };
-  
+
   componentDidMount() {
     const genres = [{ name: "ALL" }, ...getGenres()];
 
@@ -27,9 +27,15 @@ class Musings extends Component {
     this.setState({ currentPage: page });
   };
 
+  refreshPage() {
+    window.location.reload(true);
+  }
+
   handleGenreSelect = (genre) => {
     this.setState({ selectedGenre: genre });
   };
+
+
 
   render() {
     //const { length: count } = this.state.tunes;
@@ -61,7 +67,7 @@ class Musings extends Component {
                   <FontAwesomeIcon icon={tune.image} />
                 </i>
                 {/* <p className={styles.p}>by {tune.composer}</p> */}
-                <a className={styles.a} href={tune.link} target={"_blank"}>
+                <a className={styles.a} href={tune.link} target={"_blank"} rel="noreferrer">
                   {" "}
                   {tune.linkText}
                 </a>
@@ -70,7 +76,7 @@ class Musings extends Component {
             </figure>
             <br></br>
           </React.Fragment>
-        ))}     
+        ))}
         <MyFooter />
       </React.Fragment>
     );

@@ -1,64 +1,49 @@
 import React from "react";
-
-// import Advice from "../Advice/advice";
-// import Weather from "../Weather/weather";
-import styles from "./Home.module.css";
 import HomeIntro from "./home-intro";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import HomeOutro from './home-outro';
-
-
+import styles from './Home.module.css';
 
 
 const Home = () => {
-  const tune = {
-    _id: "00",
-    title: " Latest work in progress:  Epic Sax",
-    // composer: "R.T.H.",
-    date: "2022",
-    image: "moon-cloud",
-    color: "red",
-    fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/Epic_Sax.mp3",
-    genre: { _id: "4", name: "Neo-classical" },
-  };
-
-  const tune2 = {
-    _id: "01",
-    title: " A version with string orchestration:",
-    // composer: "R.T.H.",
-    date: "2021",
-    image: "mountain",
-    color: "green",
-    fontsize: "24px",
-    url: "https://s3.amazonaws.com/www.ywapom.com/mp3/somber_strings.mp3",
-    genre: { _id: "4", name: "Neo-Classical" },
-  };
-
   return (
-    <div>
+    <>
       <HomeIntro />
       <br></br>
-      <React.Fragment key={tune._id}>
-        <figure>
-          <figcaption className={styles.figcaption}>
-            <p className={styles.p2}>{tune.title}</p>
-            <i style={{ color: tune.color }} aria-hidden="true">
-              {" "}
-              <FontAwesomeIcon icon={tune.image} />
-            </i>
-            {/* <p className={styles.p}>by {tune.composer}</p> */}
-            <a className={styles.a} href={tune.link} target={"_blank"} rel="noreferrer">
-              {" "}
-              {tune.linkText}
-            </a>
-          </figcaption>
-          <audio controls src={tune.url}></audio>
-        </figure>
-      </React.Fragment>
-      <br></br>
-      <HomeOutro></HomeOutro>
-    </div>
+      <div className={styles.wrapper}>
+        <div className={styles.one}>
+        <p className={styles.p1}>
+          Ron Hermansen...
+        </p>
+        <p className={styles.p2}>
+          A developer<br/>
+          A father of two great boys<br/>
+          Pursues mindfulness<br/>
+          ~<br/>
+          Sometimes I compose<br/>
+          Sometimes notes flow from elsewhere<br/>
+          Mysterious life<br/>
+          ~<br/>
+          Looking for a job<br/>
+          What will the next challenge bring<br/>
+          Never stop learning<br/>
+        </p>
+        </div>
+        <div className={styles.two}>
+        <p className={styles.p3}>Thank you for visiting my site!</p>  
+        <p className={styles.p}>
+              I made this site with React.<br/><br/>
+              A few carreer highlights can be seen in the Resume page.<br/><br/>
+              Music hobby items can be heard in Musings and the Player pages.<br/><br/>
+              Chess is under construction but links to a few historical games.
+            </p>
+        </div>
+        <div className={styles.three}>
+          <br/>
+          <p>Contact information:</p>
+          <p><a href ='mailto:rth333@gmail.com'>rth333@gmail.com</a></p>
+          <p><a href="https://www.linkedin.com/in/ron-hermansen-6b082011/">LinkedIn</a></p>
+        </div>
+      </div>
+    </>
   );
 };
 

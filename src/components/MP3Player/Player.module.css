@@ -8,7 +8,7 @@
   box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
     inset 6px 6px 12px rgba(255, 255, 255, 0.4);
   width: 400px;
-  height: 700px;
+  height: 550px;
 }
 .cplayerh4 {
   color: #fff;
@@ -40,11 +40,12 @@
 }
 
 .cplayerdetails .detailsimg img {
+  max-height: 150px;
   display: block;
   margin: 50px auto;
   object-fit: contain;
   width: 250px;
-  height: 300px;
+  height: 450px;
   border-radius: 50%;
 
 }

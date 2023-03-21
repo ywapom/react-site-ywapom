@@ -8,7 +8,6 @@ const HorzListGroup = (props) => {
     textProperty,
     valueProperty,
     onItemSelect,
-    selectedItem,
   } = props;
 
   // const isDesktopOrLaptop = useMediaQuery({
@@ -26,8 +25,8 @@ const HorzListGroup = (props) => {
     <ul className={style.ul}>
       {items.map((item) => (
         <li
-          onClick={() => onItemSelect(item)}
           key={item[valueProperty]}
+          onClick={() => onItemSelect(item)}
           className={style.li}
         >
           {item[textProperty]}
