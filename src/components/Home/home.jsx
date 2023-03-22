@@ -29,7 +29,7 @@ const Home = () => {
         </div>
         <div className={styles.two}>
         <p className={styles.p3}>Thank you for visiting my site!</p>  
-        <p className={styles.p}>
+        <p className={styles.p4}>
               I made this site with React.<br/><br/>
               A few carreer highlights can be seen in the Resume page.<br/><br/>
               Music hobby items can be heard in Musings and the Player pages.<br/><br/>

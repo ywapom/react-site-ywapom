@@ -9,6 +9,7 @@ class Chess extends React.Component {
             <div style={{padding: "50px"}}>
                 <p >Chess highlights include:</p>
                 <ul>
+                    <li>&#x2022; National Master</li><br/>
                     <li>&#x2022; Los Angeles County Champion 2005</li><br/>
                     <li>&#x2022; US Amatuer Team Champion 2004 (perfect score)</li>
                 </ul>
