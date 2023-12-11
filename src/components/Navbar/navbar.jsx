@@ -19,18 +19,18 @@ export default class NavBar extends Component {
         link: "/resume/",
         text: "Resume",
       },
-      {
-        link: "/musings/",
-        text: "Musings",
-      },
+      // {
+      //   link: "/musings/",
+      //   text: "Musings",
+      // },
       {
         link: "/mp3player/",
         text: "Player",
       },
-      {
-        link: "/chess/",
-        text: "Chess",
-      },
+      // {
+      //   link: "/chess/",
+      //   text: "Chess",
+      // },
       // {
       //   link: "/covid/",
       //   text: "Covid-19",

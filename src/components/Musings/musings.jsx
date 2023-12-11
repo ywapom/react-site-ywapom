@@ -48,12 +48,13 @@ class Musings extends Component {
     return (
       <React.Fragment>
         <Intro />
-        <div>
+        <div id="musings_filter">
           <HorzListGroup
             key={this.key}
             items={this.state.genres}
             selectedItem={this.state.selectedGenre}
             onItemSelect={this.handleGenreSelect}
+            id="musings_filter"
           />
           <br></br>
         </div>

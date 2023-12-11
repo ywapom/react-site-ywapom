@@ -12,15 +12,6 @@ class MyCards extends Component {
                 </div>
                 <div className={styles.cards}>
                     <div className={styles.card}>
-                        <p style={{ fontFamily: 'Cambria' }}>"...contributed greatly to the quality and supportability of our highly complex enterprise application suite."</p>
-                        <p style={{ fontSize: '10px' }}>-- Christopher Cambell, CEO at AssetSmart</p>
-                        <p style={{ fontFamily: 'Cambria' }}>"Ron is a highly intelligent, motivated, and creative problem solver... I have no hesitation in recommending him to anyone."</p>
-                        <p style={{ fontSize: '10px' }}>-- Richard Piedra, Director of Quality Assurance at Conduce</p>
-                        <p style={{ fontFamily: 'Cambria' }}>"...he excelled in writing automation and test tools to reduce testing time and increase coverage."</p>
-                        <p style={{ fontSize: '10px' }}>--Paul Davis, Director of Engineering at Rovi</p>
-                        <a href="https://www.linkedin.com/in/ron-hermansen-6b082011/">LinkedIn</a>
-                    </div>
-                    <div className={styles.card}>
                         <h3><i>Tivo (Rovi) </i><span>Digital media solutions</span></h3>
                         <p style={{ color: 'teal' }}>Principal QA Engineer [2009-2017]</p>
                         <p>C#, Java, Ruby, SQL, Bash, Jmeter, SoapUI</p>
@@ -47,6 +38,13 @@ class MyCards extends Component {
                         <p>React, Jest-e2e</p>
                         <img src="../images/meta.png" alt="" />
                         <p>Custom jest-e2e test automation across and between mobile, desktop, and web.</p>
+                    </div>
+                    <div className={styles.card}>
+                        <h3><i>Meta (Facebook) </i><span>Under contract from Qualitest Group</span></h3>
+                        <p style={{ color: 'teal' }}>VR Tools Developer [2023-]</p>
+                        <p>Python, Javascript, Renderdoc, Perfetto, Android on Oculus</p>
+                        <img src="../images/vr.jpeg" alt="" />
+                        <p>Automated test framework creation for Oculus</p>
                     </div>
                 </div >
             </React.Fragment>
