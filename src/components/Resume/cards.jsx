@@ -6,8 +6,12 @@ class MyCards extends Component {
         return (
             <React.Fragment>
                 <div className={styles.intro}>
-                    <text>Resume</text>
-                    <h3>Software  Developer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className={styles.span1}> Test Automation &nbsp;&nbsp;&nbsp;&nbsp;</span><span className={styles.span2}>Full Stack Development</span></h3>
+                    <text style={{ color: 'gray', font: 'cursive' }}>Resume</text>
+                    <h3>Full Stack Developer |
+                        <span className={styles.span1}> Test Automation |</span>
+                        <span className={styles.span2}> Prompt Engineer |</span>
+                        <span className={styles.span3}> Certified in Machine Learning & Artificial Intelligence</span>
+                    </h3>
                     <br></br>
                 </div>
                 <div className={styles.cards}>
@@ -47,8 +51,30 @@ class MyCards extends Component {
                         <p>Automated test framework creation for Oculus</p>
                     </div>
                 </div >
+                <div>
+                <div className={styles.div}>
+                    <p className={styles.p1} style={{ color: 'navy' }}>"...contributed greatly to the quality and supportability of our highly complex enterprise application suite."</p>
+                    <p className={styles.p1}>&nbsp;&nbsp;&nbsp;-- Christopher Cambell, CEO at AssetSmart</p>
+                    <p className={styles.p1} style={{ color: 'navy' }}>"Ron is a highly intelligent, motivated, and creative problem solver... I have no hesitation in recommending him to anyone."</p>
+                    <p className={styles.p1}>&nbsp;&nbsp;&nbsp;-- Richard Piedra, Director of Quality Assurance at Conduce</p>
+                    <p className={styles.p1} style={{ color: 'navy' }}>"...he excelled in writing automation and test tools to reduce testing time and increase coverage."</p>
+                    <p className={styles.p1}>&nbsp;&nbsp;&nbsp;--Paul Davis, Director of Engineering at Rovi</p>
+                    <a href="https://www.linkedin.com/in/ron-hermansen-6b082011/">&nbsp;&nbsp;&nbsp;LinkedIn</a>
+                    <p></p>
+                </div>
+                <br></br>
+                <div className={styles.div2}>
+                    <p>Success at Meta:</p>
+                </div>
+                <div className={styles.div2}>
+                    <img className={styles.img} src="../images/badges.png" alt=""/>
+                </div>
+                <div className={styles.div2}>
+                    <br/>
+                    <p><a href ='mailto:rth333@gmail.com'>rth333@gmail.com</a></p>
+                </div>
+            </div>
             </React.Fragment>
-
         );
     }
 }

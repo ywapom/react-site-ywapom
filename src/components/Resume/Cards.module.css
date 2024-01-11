@@ -23,6 +23,12 @@ html {
  p {
     font-family: Arial;
  }
+ .p1 {
+   margin-left: 15px;
+   font-family: 'Merienda';
+   font-size: medium;
+   color: #1b033f;
+ }
  
  img {
     max-height: 100px;
@@ -32,7 +38,7 @@ html {
  
  .intro {
     width: 100%;
-    background-color: cadetblue !important;
+    background-color: rgb(144, 161, 161) !important;
  }
  
  h3 {
@@ -50,8 +56,15 @@ html {
     font-family: helvetica;
     font-size: 18px;
     font-weight: lighter;
-    color: white;
+    color: blue;
  }
+
+ .span3 {
+   font-family: Courier;
+   font-size: 22px;
+   font-weight: lighter;
+   color: white;
+}
  
  h3 span {
     font-size: 12px;
@@ -81,4 +94,13 @@ html {
     margin-left: -1rem;
  }
  
- 
+ .img {
+   margin-left: 30px;
+   max-height: 400px !important;
+   height: 60%;
+   width: auto;
+ }
+
+ .div2 {
+   margin-left: 30px;
+ }
