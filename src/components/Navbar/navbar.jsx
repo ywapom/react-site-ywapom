@@ -11,26 +11,26 @@ export default class NavBar extends Component {
   };
   render() {
     const li = [
+      // {
+      //   link: "/",
+      //   text: "Home",
+      // },
       {
         link: "/",
-        text: "Home",
-      },
-      {
-        link: "/resume/",
         text: "Resume",
       },
       // {
       //   link: "/musings/",
       //   text: "Musings",
       // },
-      {
-        link: "/mp3player/",
-        text: "Player",
-      },
       // {
-      //   link: "/chess/",
-      //   text: "Chess",
+      //   link: "/mp3player/",
+      //   text: "Player",
       // },
+      {
+        link: "/chess/",
+        text: "Chess",
+      },
       // {
       //   link: "/covid/",
       //   text: "Covid-19",

@@ -1,8 +1,8 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
+  Routes
 } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -125,13 +125,13 @@ function App() {
       <NavBar />
       <main>
         <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/musings" component={Musings} />
-            <Route path="/MP3Player" component={MP3Player} />
-            <Route path="/chess" component={Chess} />
-            <Route path="/resume" component={MyCards} />
-          </Switch>{" "}
+          <Routes>
+            <Route exact path="/" element={<MyCards />} />
+            <Route path="/musings" element={<Musings />} />
+            <Route path="/MP3Player" element={<MP3Player />} />
+            <Route path="/chess" element={<Chess />} />
+            <Route path="/resume" element={<MyCards />} />
+          </Routes>{" "}
         </Router>
       </main>
     </React.Fragment>
