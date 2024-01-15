@@ -25,7 +25,7 @@ html {
  }
  .p1 {
    margin-left: 15px;
-   font-family: 'Merienda';
+   font-family: 'Arial';
    font-size: medium;
    color: #1b033f;
  }
@@ -103,4 +103,5 @@ html {
 
  .div2 {
    margin-left: 30px;
+   background-color: white;
  }
