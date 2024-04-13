@@ -64,6 +64,7 @@ import NavBar from "./components/Navbar/navbar";
 import MP3Player from "./components/MP3Player/MP3Player";
 import MyCards from "./components/Resume/cards";
 import Chess from "./components/chess/chess";
+import Videos from "./components/videos/videos";
 //import styles from "./App.css";
 
 library.add(
@@ -131,6 +132,7 @@ function App() {
             <Route path="/MP3Player" element={<MP3Player />} />
             <Route path="/chess" element={<Chess />} />
             <Route path="/resume" element={<MyCards />} />
+            <Route path="/Videos" element={<Videos />} />
           </Routes>{" "}
         </Router>
       </main>

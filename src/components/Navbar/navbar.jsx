@@ -39,6 +39,10 @@ export default class NavBar extends Component {
       //   link: "/games/",
       //   text: "Games",
       // },
+      {
+        link: "/videos/",
+        text: "Videos",
+      },
     ];
 
     return (
