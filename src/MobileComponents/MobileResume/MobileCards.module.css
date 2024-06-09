@@ -1,0 +1,110 @@
+html {
+   overflow-y: scroll;
+}
+
+.cards {
+   display: flex;
+   flex-direction: column;
+   border-color: blue;
+   align-items: center;
+}
+
+
+.card {
+   max-width: 98%;
+   z-index: 1;
+   border-radius: 1rem;
+   background: #f2f5f8;
+   box-shadow: 4px 4px 12px 2px gray;
+   transition: 0.2s;
+   padding: 1rem;
+   margin-bottom: 1rem;
+}
+
+p {
+   font-family: Arial;
+}
+
+.p1 {
+   margin-left: 10px;
+   font-family: 'Merienda';
+   font-size: medium;
+   color: #1b033f;
+}
+
+img {
+   max-height: 100px;
+   height: auto;
+   width: 100%;
+}
+
+.intro {
+   width: 100%;
+   background-color: rgb(144, 161, 161) !important;
+}
+
+h3 {
+   margin-left: 10px;
+   font-family: Arial;
+}
+
+.span1 {
+   font-family: Courier;
+   font-size: 16px;
+   color: brown;
+}
+
+.span2 {
+   font-family: helvetica;
+   font-size: 16px;
+   font-weight: lighter;
+   color: blue;
+}
+
+.span3 {
+   font-family: Courier;
+   font-size: 16px;
+   font-weight: lighter;
+   color: white;
+}
+
+h3 span {
+   font-size: 12px;
+   font-weight: lighter;
+}
+
+.stack {
+   color: teal;
+}
+
+.card:not(:first-child) {
+   margin-left: 2;
+}
+
+.card:hover,
+.card:focus-within {
+   transform: translatey(-0.5rem);
+}
+
+.card:hover~.card,
+.card:focus-within~.card {
+   transform: none;
+}
+
+.fastack {
+   margin-left: 0;
+}
+
+.img {
+   margin-left: 0;
+   max-height: 200px !important;
+   height: auto;
+   width: 100%;
+}
+
+.div2 {
+   margin-left: 0;
+   margin-top: 1rem;
+}
+
+ 
