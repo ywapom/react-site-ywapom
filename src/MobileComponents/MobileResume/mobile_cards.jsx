@@ -18,9 +18,10 @@ class MobileMyCards extends Component {
                         <img className={styles.img} src="../images/rtw_me.jpeg" alt=""></img>
                     </div>
                     <div className={styles.card}>
-                        <h3>Full Stack Developer</h3>
-                        <h3>Prompt Engineer - Certified in Machine Learning & Artificial Intelligence</h3>
                         <h3>Test Automation Specialist</h3>
+                        <h3>Full Stack Developer</h3>
+                        <h3>Prompt Engineer</h3>
+                        <h4>Certified in Machine Learning & Artificial Intelligence</h4>
                     </div>
                     <div className={styles.card}>
                         <h3><i>Meta (Facebook) </i><span>Under contract from Qualitest Group</span></h3>

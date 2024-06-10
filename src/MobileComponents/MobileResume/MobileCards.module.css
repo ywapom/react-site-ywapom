@@ -7,9 +7,10 @@ html {
    flex-direction: column;
    border-color: blue;
    align-items: center;
-   background-color: black;
+   background-color: teal;
+   position: relative;  /* Added to handle z-index within the container */
+   
 }
-
 
 .card {
    max-width: 98%;
@@ -20,6 +21,8 @@ html {
    transition: 0.2s;
    padding: 1rem;
    margin-bottom: 1rem;
+   position: relative;  /* Added to control stacking */
+   margin-top: -1rem;   /* Added to create overlap */
 }
 
 p {
@@ -37,6 +40,7 @@ img {
    max-height: 100px;
    height: auto;
    width: 100%;
+   object-fit: cover;
 }
 
 .intro {
@@ -46,7 +50,21 @@ img {
 
 h3 {
    margin-left: 10px;
-   font-family: Arial;
+   font-family: Tahoma;
+   font-size: 1.17em;
+   margin-top: 0em;
+   margin-bottom: 3px;
+   font-weight: lighter;
+}
+
+h4 { 
+   display: block;
+   font-family: Tahoma;
+   margin-top: 1.33em;
+   margin-bottom: 1.33em;
+   margin-left: 0;
+   margin-right: 0;
+   font-weight: lighter;
 }
 
 .span1 {
@@ -79,12 +97,13 @@ h3 span {
 }
 
 .card:not(:first-child) {
-   margin-left: 2;
+   margin-left: 2px;  /* Slight adjustment for overlapping effect */
 }
 
 .card:hover,
 .card:focus-within {
    transform: translatey(-0.5rem);
+   z-index: 2; /* Ensure the hovered card is above others */
 }
 
 .card:hover~.card,
@@ -108,7 +127,7 @@ h3 span {
    margin-top: 1rem;
 }
 
-.border  {
+.border {
    border: '1px solid black';
    text-align: center;
- };
+}
