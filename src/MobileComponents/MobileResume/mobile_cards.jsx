@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import styles from "./MobileCards.module.css";
 
+const borderStyle = {
+    border: '1px solid black',
+    textAlign: 'center',
+    marginRight: 10,
+  };
+
 class MobileMyCards extends Component {
+      
     render() {
         return (
             <React.Fragment>
                 <div className={styles.cards}>
+                    <div className={styles.card}>
+                        <h3>Ron Hermansen</h3>
+                        <img className={styles.img} src="../images/rtw_me.jpeg" alt=""></img>
+                    </div>
                     <div className={styles.card}>
                         <h3>Full Stack Developer</h3>
                         <h3>Prompt Engineer - Certified in Machine Learning & Artificial Intelligence</h3>
@@ -47,7 +58,7 @@ class MobileMyCards extends Component {
                         <p>Coded multi-tiered multi-platform e2e automation.  Lead 6 QA Engineers.</p>
                     </div>
                 
-                <div className={styles.div}>
+                <div className={styles.card}>
                     <p className={styles.p1} style={{ color: 'navy' }}>"...contributed greatly to the quality and supportability of our highly complex enterprise application suite."</p>
                     <p className={styles.p1}>&nbsp;&nbsp;&nbsp;-- Christopher Cambell, CEO at AssetSmart</p>
                     <p className={styles.p1} style={{ color: 'navy' }}>"Ron is a highly intelligent, motivated, and creative problem solver... I have no hesitation in recommending him to anyone."</p>
@@ -60,9 +71,10 @@ class MobileMyCards extends Component {
                     <img className={styles.img} src="../images/badges.png" alt=""/>
                 </div>
                 <div className={styles.card}>
-                    <a href ='mailto:rth333@gmail.com'>rth333@gmail.com</a>
-                    <br></br>
-                    <a href="https://www.linkedin.com/in/ron-hermansen-6b082011/">LinkedIn</a>
+                    <a style={borderStyle} href ='mailto:rth333@gmail.com'>
+                            rth333@gmail.com
+                        </a>
+                    <a style={borderStyle} href="https://www.linkedin.com/in/ron-hermansen-6b082011/">LinkedIn</a>
                 </div>
                 </div >
                 <br></br>
